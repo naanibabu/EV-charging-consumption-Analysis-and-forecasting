@@ -20,18 +20,9 @@ Getting started (local)
    pip install numpy pandas matplotlib seaborn statsmodels scikit-learn jupyter
 3. Open and run: [`ev_eneryconsumption.ipynb`](ev_eneryconsumption.ipynb). The notebook walks from data loading to model evaluation.
 
-What to review for hiring managers
-- Reproducibility: clear preprocessing steps and a single notebook that reproduces figures and forecasts.
-- Time-series knowledge: decomposition (additive/multiplicative), STL, ADF tests and differencing strategy.
-- Model selection: ARIMA grid, AIC/BIC and RMSE comparisons shown in [`ev_eneryconsumption.ipynb`](ev_eneryconsumption.ipynb).
-- Communication: concise visualizations and insights accompanying code cells.
 
-Suggested next steps (extensions)
-- Add a lightweight CLI or Python script to export forecasts (e.g., forecasts.csv).
-- Build cross-validation for time-series (walk-forward).
-- Try exponential smoothing (ETS) or Prophet for comparison.
-- Deploy a simple dashboard to visualize forecasts and anomalies.
 
-License & Contact
-- MIT-style permissive use (add LICENSE if required).
-- Review full notebook: [`ev_eneryconsumption.ipynb`](ev_eneryconsumption.ipynb) and source data: [`Data/`](Data/).
+
+
+
+
